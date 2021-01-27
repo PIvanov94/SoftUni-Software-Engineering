@@ -3,7 +3,7 @@ n = int(input())
 matrix = []
 
 for _ in range(n):
-    elements = [int(el) for el in input().split()]
+    elements = [int(el) for el in input().split(", ")]
     matrix.append(elements)
 
 sum_first_diagonal = 0

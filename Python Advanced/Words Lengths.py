@@ -1,0 +1,1 @@
+print(*[f"{el} -> {len(el)}" for el in input().split(', ')], sep=", ")
