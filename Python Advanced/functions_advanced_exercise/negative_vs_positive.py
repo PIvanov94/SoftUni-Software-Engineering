@@ -10,4 +10,4 @@ def print_sum_numbers(nums):
 
 numbers = [int(num) for num in input().split()]
 
-print(print_sum_numbers(numbers))
+print_sum_numbers(numbers)
